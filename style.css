@@ -1,0 +1,64 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Poppins&display=swap");
+
+/* Common CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  border: none;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  background: #ff5959;
+  padding: 16px 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  border-radius: 5px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+/* Banner area */
+#banner-area {
+  padding: 174px 307px;
+  background-image: linear-gradient(
+      360deg,
+      #121212 0%,
+      rgba(18, 18, 18, 0) 100%
+    ),
+    url(images/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 79px;
+  text-align: center;
+}
+.banner-description {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  margin: 20px 67px 30px;
+  color: rgba(255, 255, 255, 1);
+}
