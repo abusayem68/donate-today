@@ -10,12 +10,18 @@
 a {
   text-decoration: none;
 }
+input {
+  outline: none;
+  border: none;
+}
 .btn {
   border: none;
-  font-family: "Inter", sans-serif;
   color: #ffffff;
   background: #ff5959;
   padding: 16px 12px;
+}
+.btn-donate-now {
+  font-family: "Inter", sans-serif;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -135,31 +141,30 @@ a {
   outline: none;
 }
 /* Our Donate Plan */
-.our-donate-plan{
+.our-donate-plan {
   padding-bottom: 130px;
   background: #fff;
 }
-.container{
+.container {
   width: 80%;
   margin: 0 auto;
 }
-.donate-plan-items{
+.donate-plan-items {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-.card{
+.card {
   width: 360px;
   height: 352px;
   padding: 63px 22px 53px;
   border-radius: 5px;
   margin-right: 24px;
 }
-.card:last-child{
+.card:last-child {
   margin-right: 0;
 }
-.card-title{
+.card-title {
   font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 24px;
@@ -168,18 +173,61 @@ a {
   margin-top: 31px;
   margin-bottom: 16px;
 }
-.card-description{
+.card-description {
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 24px;
 }
-#donate-plan-food{
+#donate-plan-food {
   background: rgba(79, 157, 166, 0.1);
 }
-#donate-plan-shelter{
+#donate-plan-shelter {
   background: rgba(255, 89, 89, 0.1);
 }
-#donate-plan-education{
- background-color: #FFF4D6;
+#donate-plan-education {
+  background-color: #fff4d6;
+}
+
+/* Get My Updates Area */
+#get-my-updates{
+  padding-bottom: 120px;
+}
+.subscribe-container {
+  width: 60%;
+  margin: 0 auto;
+  width: 809px;
+  height: 200px;
+  background-color: #fff4d6;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-form-container{
+  width: 432px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-form-container input {
+  width: 70%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #aa9f9f;
+  background: #d9d9d9;
+  padding: 14px 0 14px 17px;
+  border-radius: 5px 0px 0px 5px;
+  margin: 0;
+}
+.btn-subscribe {
+  width: 30%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 20px;
+  padding: 14px;
+  border-radius: 0px 5px 5px 0px;
 }
