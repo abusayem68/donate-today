@@ -1,5 +1,5 @@
 /* Google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Lobster&family=Manrope&family=Poppins&display=swap");
 
 /* Common CSS */
 * {
@@ -190,7 +190,7 @@ input {
 }
 
 /* Get My Updates Area */
-#get-my-updates{
+#get-my-updates {
   padding-bottom: 120px;
 }
 .subscribe-container {
@@ -204,7 +204,7 @@ input {
   justify-content: center;
   align-items: center;
 }
-.subscribe-form-container{
+.subscribe-form-container {
   width: 432px;
   display: flex;
   justify-content: center;
@@ -230,4 +230,28 @@ input {
   line-height: 20px;
   padding: 14px;
   border-radius: 0px 5px 5px 0px;
+}
+
+/* Footer area  */
+#footer{
+  background: #0B0D17;
+  padding-top: 43px;
+  padding-bottom: 43px;
+}
+.footer-text{
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+line-height: 24px;
+color: #D9DBE1;
+text-align: center
+;
+}
+#footer-title {
+  font-family: "Lobster", cursive;
+  color: #ff5959;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  display: block;
+  margin-bottom: 24px;
 }
