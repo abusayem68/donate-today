@@ -189,6 +189,36 @@ input {
   background-color: #fff4d6;
 }
 
+/* Become a volunteer */
+#become-a-volunteer{
+  height: 70vh;
+  text-align: center;
+  margin-bottom: 130px;
+  background-image: linear-gradient(
+    360deg,
+    #121212 0%,
+    rgba(18, 18, 18, 0) 100%
+  ), url(images/volunteering-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#become-a-volunteer .section-title{
+  color: #fff;
+}
+#become-a-volunteer .section-description{
+  color: #fff;
+  margin-bottom: 30px;
+}
+.apply-now-btn{
+  font-size: 17px;
+  border-radius: 18px;
+  padding: 10px 30px;
+}
 /* Get My Updates Area */
 #get-my-updates {
   padding-bottom: 120px;
