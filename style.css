@@ -134,4 +134,52 @@ a {
 #custom-amount:focus {
   outline: none;
 }
-
+/* Our Donate Plan */
+.our-donate-plan{
+  padding-bottom: 130px;
+  background: #fff;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+.donate-plan-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.card{
+  width: 360px;
+  height: 352px;
+  padding: 63px 22px 53px;
+  border-radius: 5px;
+  margin-right: 24px;
+}
+.card:last-child{
+  margin-right: 0;
+}
+.card-title{
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #121212;
+  margin-top: 31px;
+  margin-bottom: 16px;
+}
+.card-description{
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+}
+#donate-plan-food{
+  background: rgba(79, 157, 166, 0.1);
+}
+#donate-plan-shelter{
+  background: rgba(255, 89, 89, 0.1);
+}
+#donate-plan-education{
+ background-color: #FFF4D6;
+}
